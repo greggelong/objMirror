@@ -43,6 +43,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight); // larger canvas to draw to
   imageMode(CENTER);
   grd.resize(800, 800);
+  grd.filter(INVERT);
+  gs[5].filter(INVERT);
+  gs[6].filter(INVERT);
+  gs[7].filter(INVERT);
+  gs[8].filter(INVERT);
   // for (let i = 0; i < gs.length; i++) {
   //   gs[i].resize(100, 0);
   //   gs[i].filter(INVERT);
